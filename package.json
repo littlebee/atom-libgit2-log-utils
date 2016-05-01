@@ -1,0 +1,34 @@
+{
+  "name": "atom-libgit2-log-utils",
+  "version": "0.2.1",
+  "description": "Simple utility functions for fetching git history using libgit2 built for the Atom editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/bumble-test/bin/testRunner.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/littlebee/atom-libgit2-log-utils.git"
+  },
+  "keywords": [
+    "git",
+    "log",
+    "git-log",
+    "git-log-utils",
+    "libgit2",
+    "nodegit",
+    "atom"
+  ],
+  "author": "Bee Wilkerson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/littlebee/atom-libgit2-log-utils/issues"
+  },
+  "homepage": "https://github.com/littlebee/atom-libgit2-log-utils#readme",
+  "devDependencies": {
+    "bumble-test": "^0.1.5"
+  },
+  "dependencies": {
+    "libgit2-log-utils": "^0.3.0"
+  }
+}
